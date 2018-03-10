@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/skyne/Desktop/Metroid Remix/Content/enemy_die2.wav</SourceFile>
+  <SourceTime>2018-03-09T00:08:01.5114933-05:00</SourceTime>
+  <DestFile>C:/Users/skyne/Desktop/Metroid Remix/Content/bin/Windows/enemy_die2.xnb</DestFile>
+  <DestTime>2018-03-09T20:42:26.7591365-05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

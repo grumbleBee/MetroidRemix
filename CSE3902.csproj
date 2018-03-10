@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{348029EF-4EC4-45DD-B60B-CD5BBF5FB029}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSE3902</RootNamespace>
+    <AssemblyName>CSE3902</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Collision\CommandRidleyProjectileTileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandRidleyTileFromTopCollision.cs" />
+    <Compile Include="Commands\Collision\CommandSamusRidleyProjectileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandSamusSamusCollision.cs" />
+    <Compile Include="Commands\Controller\CommandGiveAllPowerUps.cs" />
+    <Compile Include="Commands\Controller\CommandMenuRight.cs" />
+    <Compile Include="Commands\Controller\CommandMenuLeft.cs" />
+    <Compile Include="Commands\Controller\CommandMoveCursorDown.cs" />
+    <Compile Include="Commands\Controller\CommandMoveCursorUp.cs" />
+    <Compile Include="Enemies\Ridley.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerCameraTriggerCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerFocusTriggerCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTransitionExitTrigger.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTransitionTrigger.cs" />
+    <Compile Include="Commands\Controller\CommandFullScreen.cs" />
+    <Compile Include="Commands\Controller\CommandPauseGame.cs" />
+    <Compile Include="Enemies\RidleyProjectile.cs" />
+    <Compile Include="Environment\Cursor.cs" />
+    <Compile Include="Environment\EnergyMarker.cs" />
+    <Compile Include="Environment\MissileMarker.cs" />
+    <Compile Include="Interfaces\ICollidableObject.cs" />
+    <Compile Include="Interfaces\IPhysicsObject.cs" />
+    <Compile Include="Interfaces\IRidleyState.cs" />
+    <Compile Include="Interfaces\ITrigger.cs" />
+    <Compile Include="Interfaces\IVisibleObject.cs" />
+    <Compile Include="Levels\Menu.cs" />
+    <Compile Include="Levels\PlayerSelect.cs" />
+    <Compile Include="Levels\TestLevel.cs" />
+    <Compile Include="Levels\MultiplayerBrinstar.cs" />
+    <Compile Include="Sprites\Enemies\Ridley\JumpingRidleySprite.cs" />
+    <Compile Include="Sprites\Enemies\Ridley\RidleyProjectileSprite.cs" />
+    <Compile Include="Sprites\Enemies\Ridley\StandingRidleySprite.cs" />
+    <Compile Include="Sprites\Environment\CursorSprite.cs" />
+    <Compile Include="Sprites\Environment\EnergyMarkerSprite.cs" />
+    <Compile Include="Sprites\Environment\MissileMarkerSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusIntroSprite.cs" />
+    <Compile Include="States\Enemies\Ridley\RidleyJumpingState.cs" />
+    <Compile Include="States\Enemies\Ridley\RidleyProjectileState.cs" />
+    <Compile Include="States\Enemies\Ridley\RidleyStandingState.cs" />
+    <Compile Include="States\SamusStates\SamusIntroState.cs" />
+    <Compile Include="Triggers\CameraFocusTrigger.cs" />
+    <Compile Include="Triggers\CameraLockDownTrigger.cs" />
+    <Compile Include="Triggers\CameraLockUpTrigger.cs" />
+    <Compile Include="Triggers\CameraUnlockDownTrigger.cs" />
+    <Compile Include="Triggers\CameraUnlockUpTrigger.cs" />
+    <Compile Include="Triggers\CameraUnlockLeftTrigger.cs" />
+    <Compile Include="Triggers\CameraUnlockRightTrigger.cs" />
+    <Compile Include="Triggers\CameraLockLeftTrigger.cs" />
+    <Compile Include="Triggers\CameraLockRightTrigger.cs" />
+    <Compile Include="Triggers\DoorTransitionDoneTrigger.cs" />
+    <Compile Include="Triggers\DoorTransitionTrigger.cs" />
+    <Compile Include="Triggers\ICollidable.cs" />
+    <Compile Include="Util\CollisionUtilConstants.cs" />
+    <Compile Include="Util\EnemyConstants.cs" />
+    <Compile Include="Util\InterfaceListUtil.cs" />
+    <Compile Include="Util\MenuUtil.cs" />
+    <Compile Include="Util\PlayerConstants.cs" />
+    <Compile Include="Util\SoundConstants.cs" />
+    <Compile Include="Util\SpriteUtil.cs" />
+    <Compile Include="Util\WorldUtil.cs" />
+    <Content Include="Burndown Analysis\Sprint4.txt" />
+    <Content Include="Burndown Analysis\Sprint5.txt" />
+    <Content Include="Burndown Analysis\Sprint6.txt" />
+    <Content Include="Code Reviews\Sprint3\CollisionHandlerCodeQualityReview.txt" />
+    <Compile Include="Commands\Collision\CommandBombDestroyableTileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandBombEnemyCollision.cs" />
+    <Compile Include="Commands\Collision\CommandBulletDoorCollision.cs" />
+    <Compile Include="Commands\Collision\CommandMissileDoorCollision.cs" />
+    <Compile Include="Commands\Collision\CommandMissileTileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandMissileEnemyCollision.cs" />
+    <Compile Include="Commands\Collision\CommandBulletEnemyCollision.cs" />
+    <Compile Include="Commands\Collision\CommandCrawlerTileCollision.cs" />
+    <Compile Include="Commands\Controller\CommandMenuSelect.cs" />
+    <Compile Include="Effects\CustomSound.cs" />
+    <Compile Include="Effects\FontManager.cs" />
+    <Compile Include="Effects\SoundManager.cs" />
+    <Compile Include="Environment\MenuBackground.cs" />
+    <Compile Include="Environment\MenuTitle.cs" />
+    <Compile Include="Levels\TitleScreen.cs" />
+    <Compile Include="Players\BombExplosion.cs" />
+    <Compile Include="Players\BombInstance.cs" />
+    <Compile Include="Players\Bullet.cs" />
+    <Compile Include="Cameras\HorizontalScrollingCamera.cs" />
+    <Compile Include="Cameras\Camera.cs" />
+    <Compile Include="Cameras\VerticalScrollingCamera.cs" />
+    <Compile Include="CollisionHandler.cs" />
+    <Compile Include="Commands\Collision\CommandBulletTileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerDoorFromDownCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerDoorFromUpCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerDoorFromRightCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerDoorFromLeftCollision.cs" />
+    <Compile Include="Enemies\Crawler.cs" />
+    <Compile Include="Commands\Collision\CommandRipperTileFromLeftCollision.cs" />
+    <Compile Include="Commands\Collision\CommandRipperTileFromRightCollision.cs" />
+    <Compile Include="Interfaces\ICamera.cs" />
+    <Compile Include="Interfaces\ICommandCamera.cs" />
+    <Compile Include="Interfaces\ICommandGame.cs" />
+    <Compile Include="Interfaces\ILevel.cs" />
+    <Compile Include="Interfaces\IPhysics.cs" />
+    <Compile Include="Interfaces\IRipperState.cs" />
+    <Compile Include="Levels\Brinstar.cs" />
+    <Compile Include="Physics\StandardPhysics.cs" />
+    <Compile Include="Enemies\Ripper.cs" />
+    <Compile Include="Players\Missile.cs" />
+    <Compile Include="Players\MissileExplosion.cs" />
+    <Compile Include="Players\SamusDeathParticle.cs" />
+    <Compile Include="Enemies\Skree.cs" />
+    <Compile Include="Sprites\Enemies\Ripper\RipperLeftSprite.cs" />
+    <Compile Include="Sprites\Enemies\Ripper\RipperRightSprite.cs" />
+    <Compile Include="Sprites\Enemies\Skree\SkreeExplodingSprite.cs" />
+    <Compile Include="Sprites\Environment\MenuBackgroundSprite.cs" />
+    <Compile Include="Sprites\Environment\MenuTitleSprite.cs" />
+    <Compile Include="Sprites\Environment\TileEnvironmentSprite.cs" />
+    <Compile Include="Sprites\Samus\BombInstanceSprite.cs" />
+    <Compile Include="Sprites\Samus\BulletSprite.cs" />
+    <Compile Include="Sprites\Samus\ExplosionSprite.cs" />
+    <Compile Include="Sprites\Samus\MissileSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusDeathParticlesSprite.cs" />
+    <Compile Include="States\Enemies\Crawler\CrawlerDownState.cs" />
+    <Compile Include="States\Enemies\Crawler\CrawlerLeftState.cs" />
+    <Compile Include="States\Enemies\Crawler\CrawlerRightState.cs" />
+    <Compile Include="States\Enemies\Crawler\CrawlerUpState.cs" />
+    <Compile Include="States\Enemies\Ripper\RipperLeftState.cs" />
+    <Compile Include="States\Enemies\Ripper\RipperRightState.cs" />
+    <Compile Include="States\Enemies\Skree\SkreeDivingState.cs" />
+    <Compile Include="States\Enemies\Skree\SkreeDrillingState.cs" />
+    <Compile Include="States\Enemies\Skree\SkreeExplodingState.cs" />
+    <Compile Include="States\Enemies\Skree\SkreeHangingState.cs" />
+    <Compile Include="States\Environment\StateDoorClosed.cs" />
+    <Compile Include="States\Environment\StateDoorOpen.cs" />
+    <Compile Include="States\Environment\StateEnvironment.cs" />
+    <Compile Include="States\SamusStates\SamusJumpingShootState.cs" />
+    <Compile Include="States\Weapons\BombUnexplodedState.cs" />
+    <Compile Include="States\Weapons\ExplosionState.cs" />
+    <Compile Include="States\Weapons\MissileExplosionState.cs" />
+    <Compile Include="States\Weapons\MissileState.cs" />
+    <Compile Include="States\Weapons\BulletState.cs" />
+    <Compile Include="Environment\TileEnvironment.cs" />
+    <Content Include="Burndown Analysis\Sprint3.txt" />
+    <Content Include="Code Reviews\Sprint2\SkreeHangingSprite Maintainability Review.txt" />
+    <Compile Include="Commands\Collision\CommandPlayerTileFromBottomCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTileFromTopCollision.cs" />
+    <Compile Include="Commands\Collision\CommandSkreeTileCollision.cs" />
+    <Compile Include="Commands\Collision\CommandCrawlerTakeDamage.cs" />
+    <Compile Include="Commands\Collision\CommandSkreeTakeDamage.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerEnergyTankCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerMissilePackCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerMaruMariCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerBombCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerEnergyRefillCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTileFromLeftCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerMissileRefillCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTileFromRightCollision.cs" />
+    <Compile Include="Commands\Collision\CommandPlayerTakeDamage.cs" />
+    <Compile Include="Commands\Controller\CommandToggleMissile.cs" />
+    <Compile Include="Commands\Controller\CommandToggleVaria.cs" />
+    <Compile Include="StandardGameObject.cs" />
+    <Compile Include="Interfaces\ICommandCollision.cs" />
+    <Compile Include="Interfaces\IGameObject.cs" />
+    <Compile Include="Interfaces\IItemState.cs" />
+    <Compile Include="Interfaces\IPowerUp.cs" />
+    <Compile Include="Interfaces\ISkreeState.cs" />
+    <Compile Include="Interfaces\IRefill.cs" />
+    <Compile Include="Interfaces\IState.cs" />
+    <Compile Include="Interfaces\IStateInteractable.cs" />
+    <Compile Include="Interfaces\IWorld.cs" />
+    <Compile Include="LevelLoader.cs" />
+    <Compile Include="Power Ups\Bomb.cs" />
+    <Compile Include="Power Ups\EnergyRefill.cs" />
+    <Compile Include="Power Ups\EnergyTank.cs" />
+    <Compile Include="Power Ups\MaruMari.cs" />
+    <Compile Include="Power Ups\MissileRefill.cs" />
+    <Compile Include="Power Ups\MissilePack.cs" />
+    <Compile Include="Commands\Controller\CommandRightPress.cs" />
+    <Compile Include="Commands\Controller\CommandLeftPress.cs" />
+    <Compile Include="Commands\Controller\CommandJumpPress.cs" />
+    <Compile Include="Commands\Controller\CommandActionPress.cs" />
+    <Compile Include="Commands\Controller\CommandQuit.cs" />
+    <Compile Include="Commands\Controller\CommandDownPress.cs" />
+    <Compile Include="Commands\Controller\CommandUpPress.cs" />
+    <Compile Include="Interfaces\ICrawlerState.cs" />
+    <Compile Include="Interfaces\IEnemy.cs" />
+    <Compile Include="Interfaces\ITileInteractable.cs" />
+    <Compile Include="Sprites\Enemies\Crawler\CrawlerUpSprite.cs" />
+    <Compile Include="Sprites\Environment\TileChozoStatueSprite.cs" />
+    <Compile Include="Sprites\Items\BombSprite.cs" />
+    <Compile Include="Sprites\Items\EnergyRefillSprite.cs" />
+    <Compile Include="Sprites\Items\EnergyTankSprite.cs" />
+    <Compile Include="Sprites\Items\MaruMariSprite.cs" />
+    <Compile Include="Sprites\Items\MissileRefillSprite.cs" />
+    <Compile Include="Sprites\Items\MisslePackSprite.cs" />
+    <Compile Include="Sprites\Enemies\Skree\SkreeDivingSprite.cs" />
+    <Compile Include="Sprites\Enemies\Skree\SkreeDrillingSprite.cs" />
+    <Compile Include="Sprites\Enemies\Skree\SkreeHangingSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusJumpingShootSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusJumpingShootUpSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusWalkJumpingSprite.cs" />
+    <Compile Include="Sprites\Sprite Factories\ItemSpriteFactory.cs" />
+    <Compile Include="Sprites\Sprite Factories\EnemySpriteFactory.cs" />
+    <Compile Include="Sprites\Sprite Factories\EnvironmentSpriteFactory.cs" />
+    <Compile Include="Sprites\Enemies\Crawler\CrawlerDownSprite.cs" />
+    <Compile Include="Sprites\Enemies\Crawler\CrawlerLeftSprite.cs" />
+    <Compile Include="Sprites\Enemies\Crawler\CrawlerRightSprite.cs" />
+    <Compile Include="Sprites\Environment\TileDestroyableBlockSprite.cs" />
+    <Compile Include="Sprites\Environment\TileDoorSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusBallSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusStandLookUpSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusStandSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusTransformSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusJumpingSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusWalkLookUpSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusWalkShootSprite.cs" />
+    <Compile Include="Sprites\Samus\SamusWalkSprite.cs" />
+    <Compile Include="States\Items\BombState.cs" />
+    <Compile Include="States\Environment\StateDestroyableDestroyed.cs" />
+    <Compile Include="States\Environment\StateDestroyableUndestroyed.cs" />
+    <Compile Include="States\Items\EnergyRefillState.cs" />
+    <Compile Include="States\Items\EnergyTankState.cs" />
+    <Compile Include="States\Items\MaruMariState.cs" />
+    <Compile Include="States\Items\MissilePackState.cs" />
+    <Compile Include="States\Items\MissileRefillState.cs" />
+    <Compile Include="States\SamusStates\AbstractSamusState.cs" />
+    <Compile Include="States\SamusStates\SamusBallState.cs" />
+    <Compile Include="States\SamusStates\SamusJumpingLookUpState.cs" />
+    <Compile Include="States\SamusStates\SamusWalkJumpingState.cs" />
+    <Compile Include="States\SamusStates\SamusJumpingState.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="ControllerGamepad.cs" />
+    <Compile Include="ControllerKeyboard.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Interfaces\ICommandController.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IPlayer.cs" />
+    <Compile Include="Interfaces\ISamusState.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Players\Samus.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IReceiver.cs" />
+    <Compile Include="Sprites\Sprite Factories\PlayerSpriteFactory.cs" />
+    <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="States\SamusStates\SamusBallTransformState.cs" />
+    <Compile Include="States\SamusStates\SamusStandLookUpState.cs" />
+    <Compile Include="States\SamusStates\SamusStandState.cs" />
+    <Compile Include="States\SamusStates\SamusWalkLookUpState.cs" />
+    <Compile Include="States\SamusStates\SamusWalkShootState.cs" />
+    <Compile Include="States\SamusStates\SamusWalkState.cs" />
+    <Compile Include="Environment\TileChozoStatue.cs" />
+    <Compile Include="Environment\TileDestroyable.cs" />
+    <Compile Include="Environment\TileDoor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code Reviews\Sprint2\CrawlerUpSprite Code Review.txt" />
+    <Content Include="Code Reviews\Sprint2\CrawlerUpSprite Maintainability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\CrawlerUpSprite Readability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SamusJumpingShootState Maintainability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SamusJumpingShootState Readability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SamusWalkSprite Code Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SamusWalkSprite Maintainability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SamusWalkSprite Readability Review.txt" />
+    <Content Include="Code Reviews\Sprint2\SkreeHangingSprite Readability Review.txt" />
+    <Content Include="Code Reviews\Sprint3\CollisionPlayerTakeDamage Maintainability Review.txt" />
+    <Content Include="Code Reviews\Sprint3\CollisionPlayerTakeDamageReview.txt" />
+    <Content Include="Code Reviews\Sprint3\LevelLoaderCodeQualityReview.txt" />
+    <Content Include="Code Reviews\Sprint3\LevelLoaderReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint3\CommandPlayerEnergyRefillCollision Maintainability Review.txt" />
+    <Content Include="Code Reviews\Sprint3\CommandPlayerEnergyRefillCollision Readability Review.txt" />
+    <Content Include="Code Reviews\Sprint3\CollisionHandlerReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\CameraAbstractCodeQualityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\BombInstanceCodeReview.txt" />
+    <Content Include="Code Reviews\Sprint4\CameraAbstractReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\StandardPhysicsMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\StandardPhysicsReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\CrawlerUpStateReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint4\RipperLeftStateReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\SoundManagerMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\TitleScreenMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\TitleScreenReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\SoundManagerReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\WorldUtilMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint5\WorldUtilReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\ControllerMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\ControllerReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\RidleyMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\MenuMaintainabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\RidleyReadabilityReview.txt" />
+    <Content Include="Code Reviews\Sprint6\MenuReadabilityReview.txt" />
+    <Content Include="Content\BombInstance.png" />
+    <Content Include="Content\explosion.png" />
+    <Content Include="Content\SamusDeathParticles.gif" />
+    <Content Include="Readme.txt" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\Game\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Brinstar.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\CollisionDictionary.csv" />
+    <None Include="Content\SongList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Sprint3Level.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Sprint6TestLevel.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\TestLong.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

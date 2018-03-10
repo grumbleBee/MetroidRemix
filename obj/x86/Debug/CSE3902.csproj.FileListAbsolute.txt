@@ -1,0 +1,266 @@
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\BombInstance.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\bombs.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\bomb_explode.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\bomb_set.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\boss_hurt.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\brinstarLevel.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\bubbling.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\bullet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ChozoStatue.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\CollisionDictionary.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\cursor.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\DefaultFont.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\door.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\EnemySpriteSheet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\enemy_die1.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\enemy_die2.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\enemy_spawn.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\energyRefill.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\energyTank.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\energy_marker.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\EnvironmentTileSet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\explosion.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\health.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\horizontalMissile.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ice_beam.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\itemRoom.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\items.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ItemSpriteSheet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\jump.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\long_beam.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\maruMari.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\menu_background.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\menu_background_stretched.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\menu_title.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\metroid_hurt.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\metroid_hurt2.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\missilePack.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\missileRefill.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\missile_marker.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\obtainItem.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\pause.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ricochet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ricochet_burst.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ridleyJumping.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ridleyJumpingRed.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ridleyProjectileSheet.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ridleyStanding.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ridleyStandingRed.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ripper.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ripperLeft_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ripperRight_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\ripper_left.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\rocket_ammo.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\rocket_door.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\rocket_shot.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusDeathParticles.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusIntro.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusJump.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusJumpAimUp.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusJumpAimUpZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusJumpShoot.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusJumpZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRoll.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRollZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRun.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRunLookUp.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRunLookUpZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRunShoot.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRunShootZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusRunZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusStand.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusStandLookUp.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusStandLookUpZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusStandZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusTransform.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusTransformZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusWalkJumping.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusWalkJumpingZSuit.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SamusZSuitIntro.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\samus_die.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\samus_drowning.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\samus_hurt.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\samus_morphball.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\samus_near_dead.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\screw_attack.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\short_beam.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\Skree.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\skree_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\startSamus.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\statue_rise.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\TileDestroyableBlock.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\TileDoor.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\title.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\verticalMissile.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\wave_beam.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomer.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerDown.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerDown_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerLeft.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerLeft_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerRight.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerRight_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerUp.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\zoomerUp_Red.xnb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\Brinstar.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\SongList.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\Sprint3Level.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\Sprint6TestLevel.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\Content\TestLong.csv
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\CSE3902.exe
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\CSE3902.pdb
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\obj\x86\Debug\CSE3902.csprojResolveAssemblyReference.cache
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\obj\x86\Debug\CSE3902.csproj.CoreCompileInputs.cache
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\obj\x86\Debug\CSE3902.exe
+C:\Users\skyne\Source\Repos\Team 3 Project\CSE3902\obj\x86\Debug\CSE3902.pdb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\CollisionDictionary.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\Brinstar.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SongList.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\Sprint3Level.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\Sprint6TestLevel.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\TestLong.csv
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\BombInstance.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\bombs.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\bomb_explode.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\bomb_set.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\boss_hurt.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\brinstarLevel.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\bubbling.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\bullet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ChozoStatue.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\cursor.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\DefaultFont.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\door.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\EnemySpriteSheet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\enemy_die1.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\enemy_die2.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\enemy_spawn.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\energyRefill.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\energyTank.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\energy_marker.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\EnvironmentTileSet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\explosion.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\health.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\horizontalMissile.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ice_beam.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\itemRoom.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\items.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ItemSpriteSheet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\jump.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\long_beam.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\maruMari.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\menu_background.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\menu_background_stretched.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\menu_title.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\metroid_hurt.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\metroid_hurt2.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\missilePack.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\missileRefill.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\missile_marker.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\obtainItem.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\pause.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ricochet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ricochet_burst.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ridleyJumping.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ridleyJumpingRed.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ridleyProjectileSheet.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ridleyStanding.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ridleyStandingRed.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ripper.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ripperLeft_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ripperRight_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\ripper_left.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\rocket_ammo.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\rocket_door.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\rocket_shot.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusDeathParticles.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusIntro.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusJump.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusJumpAimUp.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusJumpAimUpZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusJumpShoot.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusJumpZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRoll.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRollZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRun.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRunLookUp.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRunLookUpZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRunShoot.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRunShootZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusRunZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusStand.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusStandLookUp.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusStandLookUpZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusStandZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusTransform.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusTransformZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusWalkJumping.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusWalkJumpingZSuit.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\SamusZSuitIntro.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\samus_die.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\samus_drowning.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\samus_hurt.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\samus_morphball.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\samus_near_dead.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\screw_attack.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\short_beam.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\Skree.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\skree_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\startSamus.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\statue_rise.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\TileDestroyableBlock.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\TileDoor.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\title.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\verticalMissile.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\wave_beam.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomer.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerDown.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerDown_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerLeft.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerLeft_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerRight.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerRight_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerUp.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\Content\zoomerUp_Red.xnb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\CSE3902.exe
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\CSE3902.pdb
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\skyne\Desktop\Metroid Remix\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\skyne\Desktop\Metroid Remix\obj\x86\Debug\CSE3902.csprojResolveAssemblyReference.cache
+C:\Users\skyne\Desktop\Metroid Remix\obj\x86\Debug\CSE3902.csproj.CoreCompileInputs.cache
+C:\Users\skyne\Desktop\Metroid Remix\obj\x86\Debug\CSE3902.exe
+C:\Users\skyne\Desktop\Metroid Remix\obj\x86\Debug\CSE3902.pdb
